@@ -1,0 +1,114 @@
+[
+  {
+    "corridor": "CN->SG",
+    "label": "China → Singapore",
+    "source": "China",
+    "destination": "Singapore",
+    "audience": "Chinese outbound travellers",
+    "as_of_month": "2026-05",
+    "n_merchants": 741,
+    "n_high_potential": 140,
+    "high_potential_share": 0.1889,
+    "momentum_weighted": 0.2883,
+    "top_category": "Food",
+    "categories": [
+      {
+        "corridor": "CN->SG",
+        "category": "Food",
+        "momentum_weighted": 0.3036,
+        "n_merchants": 435,
+        "share_high_potential": 0.1931,
+        "total_review_base": 506003
+      },
+      {
+        "corridor": "CN->SG",
+        "category": "Beverage",
+        "momentum_weighted": 0.2985,
+        "n_merchants": 6,
+        "share_high_potential": 0.3333,
+        "total_review_base": 5158
+      },
+      {
+        "corridor": "CN->SG",
+        "category": "Retail",
+        "momentum_weighted": 0.2884,
+        "n_merchants": 175,
+        "share_high_potential": 0.2057,
+        "total_review_base": 109409
+      },
+      {
+        "corridor": "CN->SG",
+        "category": "Hotel",
+        "momentum_weighted": 0.263,
+        "n_merchants": 125,
+        "share_high_potential": 0.144,
+        "total_review_base": 167028
+      }
+    ],
+    "arrivals_latest_month": "2026-01",
+    "arrivals_level": 271953.0,
+    "arrivals_yoy": -0.2776,
+    "arrivals_mom": 0.5748,
+    "fx_pair": "CNY/SGD",
+    "fx_month": "2026-05",
+    "fx_rate": 0.1877,
+    "fx_yoy": 0.0463,
+    "rank": 1
+  },
+  {
+    "corridor": "SG->JP",
+    "label": "Singapore → Japan",
+    "source": "Singapore",
+    "destination": "Japan",
+    "audience": "Singapore outbound travellers",
+    "as_of_month": "2026-05",
+    "n_merchants": 315,
+    "n_high_potential": 53,
+    "high_potential_share": 0.1683,
+    "momentum_weighted": 0.1537,
+    "top_category": "Hotel",
+    "categories": [
+      {
+        "corridor": "SG->JP",
+        "category": "Hotel",
+        "momentum_weighted": 0.2217,
+        "n_merchants": 104,
+        "share_high_potential": 0.1827,
+        "total_review_base": 53565
+      },
+      {
+        "corridor": "SG->JP",
+        "category": "Food",
+        "momentum_weighted": 0.2166,
+        "n_merchants": 59,
+        "share_high_potential": 0.1864,
+        "total_review_base": 12579
+      },
+      {
+        "corridor": "SG->JP",
+        "category": "Retail",
+        "momentum_weighted": 0.1644,
+        "n_merchants": 145,
+        "share_high_potential": 0.1448,
+        "total_review_base": 51804
+      },
+      {
+        "corridor": "SG->JP",
+        "category": "Beverage",
+        "momentum_weighted": 0.0121,
+        "n_merchants": 7,
+        "share_high_potential": 0.2857,
+        "total_review_base": 1075
+      }
+    ],
+    "arrivals_latest_month": "2026-04",
+    "arrivals_level": 62940.0,
+    "arrivals_yoy": 0.0491,
+    "arrivals_mom": -0.1133,
+    "fx_pair": "SGD/JPY",
+    "fx_month": "2026-05",
+    "fx_rate": 124.0435,
+    "fx_yoy": 0.1092,
+    "rank": 2
+  }
+]

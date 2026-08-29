@@ -1,0 +1,226 @@
+[
+  {
+    "corridor": "CN->SG",
+    "category": "Food",
+    "momentum_weighted": 0.3036,
+    "n_merchants": 435,
+    "share_high_potential": 0.1931,
+    "total_review_base": 506003,
+    "as_of_month": "2026-05",
+    "label": "China → Singapore",
+    "destination": "Singapore",
+    "top_merchants": [
+      {
+        "name": "Tayyiba Biryani @ Nexus One North - The Best Biryani Singapore Restaurant",
+        "score": 0.9302,
+        "merchant_id": "ChIJkTDN2YYb2jERnRmbvhRlo0w"
+      },
+      {
+        "name": "The Café & Terrace Restaurant",
+        "score": 0.9013,
+        "merchant_id": "ChIJFUNR1fgZ2jER8_PFL26c8Ao"
+      },
+      {
+        "name": "Sakhi",
+        "score": 0.8619,
+        "merchant_id": "ChIJv32r6hsj2jERp8IkdVo7cts"
+      }
+    ]
+  },
+  {
+    "corridor": "CN->SG",
+    "category": "Beverage",
+    "momentum_weighted": 0.2985,
+    "n_merchants": 6,
+    "share_high_potential": 0.3333,
+    "total_review_base": 5158,
+    "as_of_month": "2026-05",
+    "label": "China → Singapore",
+    "destination": "Singapore",
+    "top_merchants": [
+      {
+        "name": "乐满家乡小厨 Le Man Seafood Restaurant 622A",
+        "score": 0.7015,
+        "merchant_id": "ChIJ5WGfo3o92jERLPxTnQ3j2Os"
+      },
+      {
+        "name": "Afghanistan Family Restaurant",
+        "score": 0.5172,
+        "merchant_id": "ChIJt_9UaBs92jERInQc82L3oP4"
+      },
+      {
+        "name": "New Rezki Restaurant.pte.ltd",
+        "score": 0.5122,
+        "merchant_id": "ChIJM68ux0w92jER9yE2WrntyL4"
+      }
+    ]
+  },
+  {
+    "corridor": "CN->SG",
+    "category": "Retail",
+    "momentum_weighted": 0.2884,
+    "n_merchants": 175,
+    "share_high_potential": 0.2057,
+    "total_review_base": 109409,
+    "as_of_month": "2026-05",
+    "label": "China → Singapore",
+    "destination": "Singapore",
+    "top_merchants": [
+      {
+        "name": "FairPrice Senja Grand",
+        "score": 0.8748,
+        "merchant_id": "ChIJc1tfUJYR2jERsNqQ4sFo5dU"
+      },
+      {
+        "name": "Fortune Supermarket",
+        "score": 0.7951,
+        "merchant_id": "ChIJaX2Gfm0T2jER5y-jLNFVXGw"
+      },
+      {
+        "name": "FairPrice Supermarket",
+        "score": 0.7948,
+        "merchant_id": "ChIJTX8Iit4P2jERD6kbBNea58g"
+      }
+    ]
+  },
+  {
+    "corridor": "CN->SG",
+    "category": "Hotel",
+    "momentum_weighted": 0.263,
+    "n_merchants": 125,
+    "share_high_potential": 0.144,
+    "total_review_base": 167028,
+    "as_of_month": "2026-05",
+    "label": "China → Singapore",
+    "destination": "Singapore",
+    "top_merchants": [
+      {
+        "name": "Seng Wah Hotel",
+        "score": 0.6985,
+        "merchant_id": "ChIJp3kFgDkY2jER7ijI2SjP9G8"
+      },
+      {
+        "name": "STORIES Joo Chiat, a Hotel by Cove - Paya Lebar, Singapore",
+        "score": 0.651,
+        "merchant_id": "ChIJczBPm3gZ2jER16Rus-8px3M"
+      },
+      {
+        "name": "Hotel 81 - Gold",
+        "score": 0.6206,
+        "merchant_id": "ChIJ9TacjjkY2jERRGG-r3VJq5c"
+      }
+    ]
+  },
+  {
+    "corridor": "SG->JP",
+    "category": "Hotel",
+    "momentum_weighted": 0.2217,
+    "n_merchants": 104,
+    "share_high_potential": 0.1827,
+    "total_review_base": 53565,
+    "as_of_month": "2026-05",
+    "label": "Singapore → Japan",
+    "destination": "Japan",
+    "top_merchants": [
+      {
+        "name": "Business Hotel Ugurahama",
+        "score": 0.9003,
+        "merchant_id": "ChIJPy2EI3li4TQRAkMWjZCI4p4"
+      },
+      {
+        "name": "Zamamia International Guesthouse",
+        "score": 0.7878,
+        "merchant_id": "ChIJJwl4ftFS5TQRfip8TSCS92M"
+      },
+      {
+        "name": "Zero Gravity Clear Water (Seisui) Diving & Villa",
+        "score": 0.7584,
+        "merchant_id": "ChIJcxxI387SHzURm-r3H7qi3-s"
+      }
+    ]
+  },
+  {
+    "corridor": "SG->JP",
+    "category": "Food",
+    "momentum_weighted": 0.2166,
+    "n_merchants": 59,
+    "share_high_potential": 0.1864,
+    "total_review_base": 12579,
+    "as_of_month": "2026-05",
+    "label": "Singapore → Japan",
+    "destination": "Japan",
+    "top_merchants": [
+      {
+        "name": "Sunny Coral",
+        "score": 0.8809,
+        "merchant_id": "ChIJ0dq0AitT5TQRTZ1X-6lcddU"
+      },
+      {
+        "name": "よってみ亭",
+        "score": 0.7978,
+        "merchant_id": "ChIJlwdcmojJHzURlpzM6HiSvIw"
+      },
+      {
+        "name": "Hanahana Chaya",
+        "score": 0.7297,
+        "merchant_id": "ChIJG169W4nJHzURLuEBMzr_iuA"
+      }
+    ]
+  },
+  {
+    "corridor": "SG->JP",
+    "category": "Retail",
+    "momentum_weighted": 0.1644,
+    "n_merchants": 145,
+    "share_high_potential": 0.1448,
+    "total_review_base": 51804,
+    "as_of_month": "2026-05",
+    "label": "Singapore → Japan",
+    "destination": "Japan",
+    "top_merchants": [
+      {
+        "name": "Sun Plaza Hq",
+        "score": 0.8411,
+        "merchant_id": "ChIJ-YdSW2w8TjURXQqwi5_BYOw"
+      },
+      {
+        "name": "MaxValu Zakimi",
+        "score": 0.7905,
+        "merchant_id": "ChIJdd1aUF8R5TQRUNX1sPsRVmI"
+      },
+      {
+        "name": "まーさん市場",
+        "score": 0.7341,
+        "merchant_id": "ChIJEWoHAUyjHzURQCUM0jED-Cc"
+      }
+    ]
+  },
+  {
+    "corridor": "SG->JP",
+    "category": "Beverage",
+    "momentum_weighted": 0.0121,
+    "n_merchants": 7,
+    "share_high_potential": 0.2857,
+    "total_review_base": 1075,
+    "as_of_month": "2026-05",
+    "label": "Singapore → Japan",
+    "destination": "Japan",
+    "top_merchants": [
+      {
+        "name": "Karaoke Izakaya Marine Box",
+        "score": 0.849,
+        "merchant_id": "ChIJK08WusxT5TQRf10CJUmTqJ0"
+      },
+      {
+        "name": "Sea Friend Seafood Restaurant",
+        "score": 0.4179,
+        "merchant_id": "ChIJAWBN5IZT5TQRljvAC0P_bBU"
+      },
+      {
+        "name": "まーさーの店",
+        "score": 0.3572,
+        "merchant_id": "ChIJ1R35K4FT5TQRcyLApip8m0E"
+      }
+    ]
+  }
+]

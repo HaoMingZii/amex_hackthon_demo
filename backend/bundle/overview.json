@@ -1,0 +1,65 @@
+{
+  "title": "Merchant Intelligence for CN→SG and SG→JP",
+  "as_of_month": "2026-05",
+  "is_simulated": true,
+  "warning": "Trained on SYNTHETIC data from data_collection/simulate_panel.py. The generator uses scenario demand shocks rather than observed future merchant outcomes, so these metrics measure pipeline correctness and scenario behaviour only.",
+  "universe": 1056,
+  "high_potential": 193,
+  "corridors": 2,
+  "categories": [
+    "Hotel",
+    "Food",
+    "Beverage",
+    "Retail"
+  ],
+  "model": "gbm",
+  "precision_at_30": 0.833,
+  "lift_at_k": 4.56,
+  "roc_auc": 0.82,
+  "pr_auc": 0.522,
+  "test_months": [
+    "2026-04",
+    "2026-05"
+  ],
+  "train_months": [
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "embargoed_months": [
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "pipeline": [
+    {
+      "id": 1,
+      "title": "Join X + Y",
+      "body": "Macro signals spliced with merchant momentum labels."
+    },
+    {
+      "id": 2,
+      "title": "Merchant model",
+      "body": "One supervised classifier scores 3-month momentum."
+    },
+    {
+      "id": 3,
+      "title": "Three-level roll-up",
+      "body": "Corridor rank, category priority, merchant list."
+    },
+    {
+      "id": 4,
+      "title": "LLM translation",
+      "body": "Facts become corridor briefs, category briefs, outreach copy."
+    },
+    {
+      "id": 5,
+      "title": "Dual-track output",
+      "body": "Strategic brief for APAC partners. Execution queue for BD."
+    }
+  ]
+}

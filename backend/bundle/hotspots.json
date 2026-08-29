@@ -1,0 +1,106 @@
+{
+  "CN->SG": [
+    {
+      "name": "Chinatown / Niu Che Shui",
+      "lat": 1.2815,
+      "lng": 103.8448
+    },
+    {
+      "name": "Sentosa / Resorts World",
+      "lat": 1.254,
+      "lng": 103.8238
+    },
+    {
+      "name": "Orchard Road",
+      "lat": 1.3048,
+      "lng": 103.8318
+    },
+    {
+      "name": "Marina Bay Sands",
+      "lat": 1.2834,
+      "lng": 103.8607
+    },
+    {
+      "name": "Gardens by the Bay",
+      "lat": 1.2816,
+      "lng": 103.8636
+    },
+    {
+      "name": "Bugis Street",
+      "lat": 1.3006,
+      "lng": 103.8559
+    },
+    {
+      "name": "Jewel Changi",
+      "lat": 1.3601,
+      "lng": 103.9896
+    },
+    {
+      "name": "Merlion Park",
+      "lat": 1.2868,
+      "lng": 103.8545
+    },
+    {
+      "name": "Clarke Quay",
+      "lat": 1.2907,
+      "lng": 103.8465
+    }
+  ],
+  "SG->JP": [
+    {
+      "name": "Ginza",
+      "lat": 35.6717,
+      "lng": 139.765
+    },
+    {
+      "name": "Shinjuku",
+      "lat": 35.6896,
+      "lng": 139.7006
+    },
+    {
+      "name": "Shibuya",
+      "lat": 35.6595,
+      "lng": 139.7005
+    },
+    {
+      "name": "Asakusa / Sensoji",
+      "lat": 35.7148,
+      "lng": 139.7967
+    },
+    {
+      "name": "Akihabara",
+      "lat": 35.6984,
+      "lng": 139.7731
+    },
+    {
+      "name": "Shinsaibashi",
+      "lat": 34.6723,
+      "lng": 135.501
+    },
+    {
+      "name": "Dotonbori / Namba",
+      "lat": 34.6687,
+      "lng": 135.5013
+    },
+    {
+      "name": "Kyoto Gion",
+      "lat": 35.0037,
+      "lng": 135.7788
+    },
+    {
+      "name": "Kyoto Station",
+      "lat": 34.9858,
+      "lng": 135.7588
+    },
+    {
+      "name": "Sapporo Susukino",
+      "lat": 43.0554,
+      "lng": 141.3529
+    },
+    {
+      "name": "Fukuoka Tenjin",
+      "lat": 33.5914,
+      "lng": 130.3989
+    }
+  ]
+}
