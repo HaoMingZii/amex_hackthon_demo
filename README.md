@@ -9,17 +9,17 @@ Metrics come from the simulated pipeline run in `amex_hackathon`. The yellow ban
 
 ## Run
 
-From two terminals:
+From the project root (`amex_hackthon_demo`), use two terminals:
 
 ```bash
 # 1) API
-cd amex_demo/backend
+cd backend
 python3 -m pip install -r requirements.txt
 python3 prepare_data.py          # only needed after data refresh
 python3 -m uvicorn app:app --reload --port 8000
 
 # 2) UI
-cd amex_demo/frontend
+cd frontend
 npm install
 npm run dev
 ```
@@ -41,7 +41,7 @@ Live LLM: copy `backend/.env.example` to `backend/.env` and set `OPENAI_API_KEY`
 ## Layout
 
 ```
-amex_demo/
+amex_hackthon_demo/
   backend/          FastAPI + JSON bundle
   frontend/         Vite + React
 ```
