@@ -97,7 +97,7 @@ export default function Strategy() {
           </p>
         </div>
         <div className="text-xs text-navy/50">
-          {payload.llm_live ? 'Live LLM available' : 'Template briefs · set OPENAI_API_KEY to generate with a model'}
+          {payload.llm_live ? 'Live LLM available' : 'Template briefs · set DEEPSEEK_API_KEY to generate with a model'}
         </div>
       </div>
 

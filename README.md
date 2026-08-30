@@ -28,7 +28,7 @@ Open [http://127.0.0.1:5173](http://127.0.0.1:5173). Vite proxies `/api` to port
 
 中文界面说明见 [使用教程.md](使用教程.md)。
 
-Live LLM: copy `backend/.env.example` to `backend/.env` and set `OPENAI_API_KEY`. Then click **Regenerate** on a brief. Without a key, the same numbers are rendered as a template so the demo still runs.
+Live LLM: copy `backend/.env.example` to `backend/.env` and set `DEEPSEEK_API_KEY`. Then click **Regenerate** on a brief. Without a key, the same numbers are rendered as a template so the demo still runs.
 
 ## Demo path (~2 min)
 

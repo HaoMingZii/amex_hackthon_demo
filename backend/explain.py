@@ -1,7 +1,7 @@
 """Turn structured model facts into natural-language briefs.
 
 Numbers always come from facts. The LLM (optional) only writes prose.
-Without OPENAI_API_KEY, a deterministic template is used so the demo never stalls.
+Without DEEPSEEK_API_KEY / OPENAI_API_KEY, a deterministic template is used so the demo never stalls.
 """
 from __future__ import annotations
 
@@ -219,23 +219,51 @@ def reset_llm_circuit() -> None:
     _LLM_CIRCUIT["reason"] = None
 
 
+def _llm_api_key() -> str:
+    return (os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENAI_API_KEY") or "").strip()
+
+
+def _llm_base_url() -> str:
+    explicit = (os.environ.get("OPENAI_BASE_URL") or "").strip()
+    if explicit:
+        return explicit.rstrip("/")
+    if os.environ.get("DEEPSEEK_API_KEY"):
+        return "https://api.deepseek.com"
+    return "https://api.openai.com/v1"
+
+
+def _llm_model() -> str:
+    explicit = (os.environ.get("OPENAI_MODEL") or os.environ.get("DEEPSEEK_MODEL") or "").strip()
+    if explicit:
+        return explicit
+    if "deepseek" in _llm_base_url() or os.environ.get("DEEPSEEK_API_KEY"):
+        return "deepseek-chat"
+    return "gpt-4o-mini"
+
+
+def _llm_provider() -> str:
+    if "deepseek" in _llm_base_url() or os.environ.get("DEEPSEEK_API_KEY"):
+        return "deepseek"
+    return "openai"
+
+
 def llm_available() -> bool:
     if os.environ.get("LLM_ENABLED", "true").lower() in {"0", "false", "no"}:
         return False
-    return bool(os.environ.get("OPENAI_API_KEY"))
+    return bool(_llm_api_key())
 
 
 def llm_status() -> dict:
-    configured = bool(os.environ.get("OPENAI_API_KEY"))
+    configured = bool(_llm_api_key())
     enabled = os.environ.get("LLM_ENABLED", "true").lower() not in {"0", "false", "no"}
     live = configured and enabled and not _LLM_CIRCUIT["open"]
     return {
         "configured": configured,
         "enabled": enabled,
         "live": live,
-        "provider": "openai",
-        "model": os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
-        "base_url": os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1",
+        "provider": _llm_provider(),
+        "model": _llm_model(),
+        "base_url": _llm_base_url(),
         "fallback": "template",
         "circuit_open": _LLM_CIRCUIT["open"],
         "circuit_reason": _LLM_CIRCUIT["reason"],
@@ -304,11 +332,11 @@ def llm_brief(level: str, facts: dict) -> dict | None:
     try:
         from openai import OpenAI
         client = OpenAI(
-            api_key=os.environ.get("OPENAI_API_KEY"),
-            base_url=os.environ.get("OPENAI_BASE_URL") or None,
-            timeout=8.0,
+            api_key=_llm_api_key(),
+            base_url=_llm_base_url(),
+            timeout=20.0,
         )
-        model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+        model = _llm_model()
         resp = client.chat.completions.create(
             model=model,
             temperature=0.4,
